@@ -28,8 +28,8 @@ body {
 }
 
 section {
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 73vh;
+  max-height: 73vh;
   padding: 10rem 9% 2rem;
 }
 
@@ -322,7 +322,7 @@ span {
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
@@ -411,6 +411,7 @@ span {
   .home {
     flex-direction: column;
   }
+
   .home-content h3 {
     font-size: 3rem;
   }
