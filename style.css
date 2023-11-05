@@ -2,7 +2,7 @@
 
 * {
   margin: 0;
-  padding: g 0;
+  padding: 0;
   box-sizing: 0;
   text-decoration: 0;
   border: none;
@@ -11,10 +11,10 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --bg-color: #1f243d;
-  --secong-bg-color: #323946;
-  --text-color: #fff;
-  --main-color: #0ef;
+  --bg-color: #100c08;
+  --secong-bg-color: #324246;
+  --text-color: #ffffff;
+  --main-color: #dae3e6;
 }
 
 html {
@@ -140,6 +140,7 @@ span {
 
 .btn {
   display: inline-block;
+  color: var(--bg-color);
   padding: 1rem 2.8rem;
   background: var(--main-color);
   border-radius: 4rem;
