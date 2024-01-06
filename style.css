@@ -12,9 +12,9 @@
 }
 :root {
   --bg-color: #100c08;
-  --secong-bg-color: #324246;
+  --secong-bg-color: #43525eab;
   --text-color: #ffffff;
-  --main-color: #dae3e6;
+  --main-color: #90ecff;
 }
 
 html {
@@ -32,7 +32,6 @@ section {
   max-height: 73vh;
   padding: 10rem 9% 2rem;
 }
-
 .header {
   position: fixed;
   top: 0;
@@ -154,6 +153,15 @@ span {
   box-shadow: none;
 }
 
+.about-content a:visited,
+.about-content a:link {
+  color: var(--main-color);
+  transition: 0.5s;
+}
+.about-content a:hover {
+  color: aqua;
+}
+
 .about {
   display: flex;
   justify-content: center;
@@ -162,25 +170,35 @@ span {
   background: var(--secong-bg-color);
 }
 
-.about-img img {
-  width: 35vw;
-}
-
 .heading {
   text-align: center;
   font-size: 4.5rem;
 }
 
-.about-content h2 {
-  text-align: left;
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   line-height: 1.2;
 }
 .about-content h3 {
+  text-align: center;
   font-size: 2.6rem;
 }
 .about-content p {
+  text-align: center;
   font-size: 1.6rem;
+  line-height: 1.5;
   margin: 2rem 0 3rem;
+}
+.about-content p span {
+  text-align: center;
+
+  line-height: 1.5;
+  margin: 2rem 0 3rem;
+}
+.about-content .btn {
+  align-content: center;
 }
 
 .services h2 {
@@ -336,6 +354,7 @@ span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
   padding: 0.5rem;
   background: var(--main-color);
   border-radius: 0.8rem;
@@ -423,12 +442,14 @@ span {
     width: 65vw;
     margin-top: 5rem;
   }
-  .about {
-    flex-direction: column-reverse;
-  }
-  .about img {
+  .home-img {
     width: 65vw;
-    margin-top: 5rem;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
   }
 
   .services h2 {
